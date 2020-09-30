@@ -18,6 +18,23 @@ namespace CSharp1Exercises.ControlFlow
             }
             Console.WriteLine("There are {0} numbers divisible by 3 between 1 and 100.", count);
         }
+        
+
+        /// <summary>
+        /// Write a program to print the numbers from 1 to 10 using for loop .
+        /// </summary>
+        public void Exercise4()
+        {
+            // Print numbers from 1 to 10
+            #include <stdio.h>
+              int main() {
+              int i;
+              for (i = 1; i < 11; ++i)
+  {
+    printf("%d ", i);
+  }
+  return 0;
+}
 
         /// <summary>
         /// Write a program and continuously ask the user to enter a number. The loop terminates when the user 
@@ -79,7 +96,39 @@ namespace CSharp1Exercises.ControlFlow
 
             Console.WriteLine("You lost!");
         }
+            
+            
+        /// <summary>
+        /// write a program Program to calculate the sum of first n natural numbers 
+       ///  Positive integers 1,2,3...n are known as natural numbers/// </summary>
+        public void Exercise4()
+        {
 
+            // Program to calculate the sum of first n natural numbers
+// Positive integers 1,2,3...n are known as natural numbers
+
+#include <stdio.h>
+int main()
+{
+    int num, count, sum = 0;
+
+    printf("Enter a positive integer: ");
+    scanf("%d", &num);
+
+    // for loop terminates when num is less than count
+    for(count = 1; count <= num; ++count)
+    {
+        sum += count;
+    }
+
+    printf("Sum = %d", sum);
+
+    return 0;
+}
+            
+            
+            
+            
         /// <summary>
         /// Write a program and ask the user to enter a series of numbers separated by comma. Find the maximum of the 
         /// numbers and display it on the result. For example, if the user enters “5, 3, 8, 1, 4", the program should 
